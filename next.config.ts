@@ -18,7 +18,7 @@ const nextConfig: NextConfig = {
   // Image configuration
   images: {
     domains: ["your-image-domain.com"], // Add domains if using external images
-    unoptimized: false, // Set to true if you need to disable image optimization
+    unoptimized: true, // Set to true if you need to disable image optimization
   },
 };
 
