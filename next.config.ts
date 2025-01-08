@@ -1,4 +1,3 @@
-
 import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -14,6 +13,12 @@ const nextConfig: NextConfig = {
   },
   eslint: {
     ignoreDuringBuilds: true,
+  },
+
+  // Image configuration
+  images: {
+    domains: ["your-image-domain.com"], // Add domains if using external images
+    unoptimized: false, // Set to true if you need to disable image optimization
   },
 };
 
