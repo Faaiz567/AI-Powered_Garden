@@ -7,7 +7,7 @@ const blogPosts = [
     excerpt:
       "Gardening can be incredibly rewarding, but it comes with its challenges.",
     date: "January 1, 2025",
-    slug: "one",
+    slug: "1",
   },
   {
     title: "Why Every Gardener Needs a Plant Identifier",
