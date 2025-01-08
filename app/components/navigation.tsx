@@ -61,13 +61,13 @@ export function Navigation() {
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
               <nav className="flex flex-col gap-4">
                 <Link href="/identify" onClick={() => setIsOpen(false)}>
-                  Identify Disease
+                  Identify Plants
                 </Link>
                 <Link href="/about" onClick={() => setIsOpen(false)}>
                   About
                 </Link>
-                <Link href="/contact" onClick={() => setIsOpen(false)}>
-                  Contact
+                <Link href="/blog" onClick={() => setIsOpen(false)}>
+                  Blog
                 </Link>
               </nav>
             </SheetContent>
